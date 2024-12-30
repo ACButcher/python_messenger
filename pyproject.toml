@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 75.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "messenger"
+version = "0.1.0"
+
+dependencies = [
+    "cryptography >= 44.0.0"
+]
+
+[project.scripts]
+messenger = "messenger.messenger:main"

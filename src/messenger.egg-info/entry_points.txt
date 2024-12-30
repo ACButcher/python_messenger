@@ -1,0 +1,2 @@
+[console_scripts]
+messenger = messenger.messenger:main
